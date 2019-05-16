@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <WebView fx:id="webView" layoutY="56.0" prefHeight="334.0" prefWidth="600.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="56.0" />
+      <Label fx:id="subjectLabel" layoutX="14.0" layoutY="14.0" text="Subject" />
+      <Label fx:id="senderLabel" layoutX="14.0" layoutY="31.0" text="Sender:">
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>
